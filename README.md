@@ -22,3 +22,9 @@ Calorie Tracker is an Android application which keeps track of your daily calori
 ### Requirements
 - Android Studio
 - gradle 4.4
+
+
+
+
+
+
