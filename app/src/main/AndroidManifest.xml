@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.malang.calorietracker">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/calories"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/calories"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashActivity"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:noHistory="true"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DiaryActivity"
+            android:label="@string/title_activity_diary"
+
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FoodActivity"
+            android:label="@string/title_activity_food"
+            android:noHistory="true"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SettingsActivity" />
+        <activity android:name=".FoodScrollActivity" android:noHistory="false"></activity>
+    </application>
+
+</manifest>

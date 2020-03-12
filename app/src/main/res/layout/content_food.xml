@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FoodActivity"
+    android:padding="30dp"
+    tools:showIn="@layout/app_bar_food">
+
+    <EditText
+        android:id="@+id/foodname_editText"
+        android:hint="Food Name"
+        android:singleLine="true"
+        android:inputType="textFilter"
+        android:maxLength="25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/foodunit_Spinner"
+        android:layout_marginTop="20px"
+        android:layout_below="@+id/foodname_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Spinner>
+
+    <EditText
+        android:id="@+id/foodquantity_editText"
+        android:layout_marginTop="20px"
+        android:layout_below="@id/foodunit_Spinner"
+        android:hint="Quantity"
+        android:inputType="number"
+        android:maxLength="5"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/calories_editText"
+        android:layout_marginTop="20px"
+        android:layout_below="@id/foodquantity_editText"
+        android:hint="Calories"
+        android:inputType="number"
+        android:maxLength="4"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/addfood_Button"
+        android:layout_marginTop="55px"
+        android:layout_below="@id/calories_editText"
+        android:layout_width="match_parent"
+        android:background="@drawable/black_button_down"
+        android:textColor="@color/white"
+        android:text="Add"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+
+</RelativeLayout>

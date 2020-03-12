@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:defaultValue="Name"
+        android:maxLength="20"
+        android:key="user_name"
+        android:inputType="textCapWords"
+        android:singleLine="true"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+        android:title="User Name"
+        />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="meal_reminder"
+        android:title="Meal Reminder"
+        />
+
+
+    <EditTextPreference
+        android:defaultValue="0"
+        android:key="calories_goal"
+        android:inputType="number"
+        android:maxLength="4"
+        android:singleLine="true"
+        android:title="Calories Goal"
+        />
+
+</PreferenceScreen>

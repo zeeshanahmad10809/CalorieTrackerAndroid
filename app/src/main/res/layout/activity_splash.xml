@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:src="@drawable/calories"
+        android:layout_width="350px"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_height="350px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/icon"
+        android:text="Calorie Tracker"
+        android:paddingTop="40px"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:singleLine="true"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+         />
+
+</RelativeLayout>
